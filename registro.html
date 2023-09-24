@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JOPS STORE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+
+
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="img/bolsa-de-la-compra.png" alt="" height ="40px" width="40px">
+
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="#" class="nav-link px-2 text-secondary">JOPS</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Hombre</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Mujer</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Tiendas</a></li>
+              <input type="search" placeholder="Ejemplo: camisas" name="" id="busqueda">
+              <button type="button" class="btn btn-secondary btn-sm">Buscar</button>
+            </ul>
+
+
+            <div class="text-end">
+              <button type="button" class="btn btn-light"> 
+                <img src="img/carrito-de-compras.png" alt="" height ="25px" width="25px">
+              </button>
+              <button type="button" class="btn btn-outline-light me-2">Login</button>
+              <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+          </div>
+        </div>
+    </header>
+
+
+    <div class="flex-shrink-0 p-3" style="width: 280px;">
+        <ul class="list-unstyled ps-0">
+          <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+              Home
+            </button>
+            <div class="collapse show" id="home-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Perfil</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Guardado</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pedidos</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1  border-top my-3">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+              Categorias
+            </button>
+            <div class="collapse" id="dashboard-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tops y Bodies</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Camisetas</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pantalones</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shorts</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Vestidos</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Gorras</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Camisas</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Buzos</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Medias</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Jeans</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Faldas</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Joggers</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pines</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chaquetas</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Vestidos de baño</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Bolsas</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-1  border-top my-3">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+              Colores
+            </button>
+            <div class="collapse" id="orders-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-primary text-white p-2"></button></a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-success text-white p-2" ></button></a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-danger text-white p-2" ></button></a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-warning text-white p-2" ></button></a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-info text-white p-2" ></button></a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-light text-white p-2" ></button></a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-dark text-white p-2" ></button></a></li>                
+              </ul>
+            </div>
+          </li>
+          <li class="border-top my-3"></li>
+          <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+              Cuenta
+            </button>
+            <div class="collapse" id="account-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+              </ul>
+            </div>
+            
+          </li>
+        </ul>
+      </div>
+
+      
+      <li class="caja-usuarios">
+        <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#usuarios-collapse" aria-expanded="false">
+          Usuarios
+        </button>
+        <div class="collapse" id="usuarios-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <label for="">- Ingrese su nombre:</label><input type="text">    
+            <br>
+            <label for="">- Ingrese su numero de telefono:</label><input type="text">    
+            <br>
+            <label for="">- Ingrese su direccion:</label><input type="text">          
+            <br>
+            <label for="">- Ingrese un correo electronico:</label><input type="text" placeholder="ejem@gmail.com">    
+            <br>
+            <label for="">- Ingrese una contraseña:</label><input type="password" placeholder="*********"> 
+            <br>
+            <center>
+                <button class="boton1">Registrar</button>
+            </center>
+          </ul>
+        </div>
+      </li>
+
+      <li class="caja-vendedores">
+        <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#vendedores-collapse" aria-expanded="false">
+          Vendedor
+        </button>
+        <div class="collapse" id="vendedores-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <label for="">- Ingrese el nombre de su marca: </label><input type="text">    
+            <br>
+            <label for="">- Ingrese el numero de telefono:</label><input type="text">    
+            <br>
+            <label for="">- Ingrese su direccion:</label><input type="text">    
+            <br>
+            <label for="">- Seleccione una imagen para su logo:</label><input type="file" id="imagen" name="imagen" accept="image/*">
+            <br>
+            <label for="">- Que categorias de ropa maneja:</label> <br> <input type="checkbox" name="Tops y Bodies" id="Tops y Bodies" >Tops y Bodies <input type="checkbox" name="Camisetas" id="Camisetas">Camisetas  <input type="checkbox" name="Pantalones" id="Pantalones">Pantalones  <input type="checkbox" name="Shorts" id="Shorts">Shorts  <input type="checkbox" name="Vestidos" id="Vestidos">Vestidos  <input type="checkbox" name="Gorras" id="Gorras">Gorras  <input type="checkbox" name="Camisas" id="Camisas">Camisas  <input type="checkbox" name="Buzos" id="Buzos">Buzos  <input type="checkbox" name="Medias" id="Medias">Medias  <input type="checkbox" name="Jeans" id="Jeans">Jeans  <input type="checkbox" name="Faldas" id="Faldas">Faldas  <input type="checkbox" name="Joggers" id="Joggers">Joggers  <input type="checkbox" name="Pines" id="Pines">Pines  <input type="checkbox" name="Chaquetas" id="Chaquetas">Chaquetas  <input type="checkbox" name="Vestidos de baño" id="Vestidos de baño">Vestidos de baño  <input type="checkbox" name="Bolsas" id="Bolsas">Bolsas
+            <br>
+            <label for="">- Ingrese un correo electronico:</label><input type="text" placeholder="ejem@gmail.com">    
+            <br>
+            <label for="">- Ingrese una contraseña:</label><input type="password" placeholder="*********">    
+            <br>
+            <center>
+                <button class="boton2">Registrar</button>
+            </center>
+        </ul>
+        </div>
+      </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
