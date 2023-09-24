@@ -24,17 +24,18 @@
               <li><a href="#" class="nav-link px-2 text-white">Hombre</a></li>
               <li><a href="#" class="nav-link px-2 text-white">Mujer</a></li>
               <li><a href="#" class="nav-link px-2 text-white">Tiendas</a></li>
-              <input type="search" placeholder="Ejemplo: camisas" name="" id="busqueda">
-              <button type="button" class="btn btn-secondary btn-sm">Buscar</button>
             </ul>
 
 
             <div class="text-end">
-              <button type="button" class="btn btn-light"> 
-                <img src="img/carrito-de-compras.png" alt="" height ="25px" width="25px">
-              </button>
+
+              <input type="search" placeholder="Ejemplo: camisas" name="" id="busqueda">
+              <button type="button" class="btn  btn-outline-light me-2">Buscar</button>
               <button type="button" class="btn btn-outline-light me-2">Login</button>
               <button type="button" class="btn btn-warning">Sign-up</button>
+              <button type="button" class="btn btn-light"> 
+                <img src="img/carrito-de-compras.png" alt="" height ="20px" width="20px">
+              </button>
             </div>
           </div>
         </div>
@@ -43,76 +44,133 @@
 
     <div class="flex-shrink-0 p-3" style="width: 280px;">
         <ul class="list-unstyled ps-0">
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-              Home
-            </button>
-            <div class="collapse show" id="home-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Perfil</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Guardado</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pedidos</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="mb-1  border-top my-3">
+          <li class="mb-1 ">
             <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
               Categorias
             </button>
             <div class="collapse" id="dashboard-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Tops y Bodies</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Camisetas</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pantalones</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shorts</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Vestidos</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Gorras</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Camisas</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Buzos</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Medias</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Jeans</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Faldas</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Joggers</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Pines</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Chaquetas</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Vestidos de baño</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Bolsas</a></li>
+                <li>
+                  <input type="checkbox" id="box1">
+                  <label for="box1">Tops y Bodies</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box2">
+                  <label for="box2">Camisetas</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box3">
+                  <label for="box3">Pantalones</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box4">
+                  <label for="box4">Shorts y faldas</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box5">
+                  <label for="box5">Vestidos</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box6">
+                  <label for="box6">Chaquetas</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box7">
+                  <label for="box7">Buzos</label>
+                </li>
+                <li>
+
+                </li>
+                <li>
+                  <input type="checkbox" id="box8">
+                  <label for="box8">Gorras</label>
+                </li>
               </ul>
             </div>
           </li>
+
           <li class="mb-1  border-top my-3">
             <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
               Colores
             </button>
             <div class="collapse" id="orders-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-primary text-white p-2"></button></a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-success text-white p-2" ></button></a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-danger text-white p-2" ></button></a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-warning text-white p-2" ></button></a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-info text-white p-2" ></button></a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-light text-white p-2" ></button></a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"> <button class="bg-dark text-white p-2" ></button></a></li>                
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small" id="lista_colores">
+                <button class="btnColor" style="background-color: cadetblue;" ></button>
+                <button class="btnColor" style="background-color:tan;" ></button>
+                <button class="btnColor" style="background-color:beige " ></button>
+                <button class="btnColor" style="background-color:brown" ></button>
+                <button class="btnColor" style="background-color:blueviolet" ></button>
+                <button class="btnColor" style="background-color:chocolate" ></button>
+                <button class="btnColor" style="background-color:black" ></button>
+                <button class="btnColor" style="background-color:crimson;" ></button>
+                <button class="btnColor" style="background-color:darkgoldenrod" ></button>
+                <button class="btnColor" style="background-color:darkgreen" ></button>
+                <button class="btnColor" style="background-color:darkgrey;" ></button>
+                <button class="btnColor" style="background-color:darkred" ></button>
+                <button class="btnColor" style="background-color:hotpink" ></button>
+                <button class="btnColor" style="background-color:darkorchid;" ></button>
+                <button class="btnColor" style="background-color:khaki" ></button>
+                <button class="btnColor" style="background-color:blue" ></button>
+                <button class="btnColor" style="background-color:red" ></button>
+                <button class="btnColor" style="background-color:darkslategray;" ></button>
+               
               </ul>
             </div>
           </li>
+          
           <li class="border-top my-3"></li>
           <li class="mb-1">
             <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-              Account
+              Talla
             </button>
             <div class="collapse" id="account-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New...</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Profile</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Settings</a></li>
-                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Sign out</a></li>
+                <li>
+                  <input type="checkbox" id="box9">
+                  <label for="box9">XS</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box10">
+                  <label for="box210">S</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box11">
+                  <label for="box11">M</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box12">
+                  <label for="box12">L</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="box13">
+                  <label for="box13">XL</label>
+                </li>
+              </ul>
+            </div>
+            
+          </li>
+
+          <li class="border-top my-3"></li>
+          <li class="mb-1">
+            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#precio-collapse" aria-expanded="false">
+              Precio
+            </button>
+            <div class="collapse" id="precio-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                <label for="customRange1" class="form-label"></label>
+                <input type="range" class="form-range" id="customRange1">
               </ul>
             </div>
             
           </li>
         </ul>
-      </div>
+    </div>
+
+  
+
+
+
+
 
       
 

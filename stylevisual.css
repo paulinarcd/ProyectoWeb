@@ -3,3 +3,11 @@
     width: 1.5rem;
     height: 100vh;
   }
+
+.btnColor{
+  width: 25px;
+  height: 25px;
+  border: none;
+  margin-right: 10px;
+
+}
