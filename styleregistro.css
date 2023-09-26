@@ -1,0 +1,61 @@
+/* Estilo para el contenedor de usuarios */
+.caja-usuarios {
+    /* width: 400px; Ajusta el ancho según tus necesidades */
+    /* height: 250px; Ajusta la altura según tus necesidades */
+    /* background-color: #f0f0f0; Color de fondo de la caja */
+    /* border: 1px solid #ccc; Borde de la caja */
+    /* position: fixed; mantener la caja quieta */
+  
+    
+    /* Centrar horizontalmente 
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 1px;
+    
+    Centrar verticalmente 
+    position: absolute;
+    top: 20%;
+    left: 480px;  
+    transform: translate(-50%, -50%);*/
+  }
+  
+  /* Estilo para el contenedor de usuarios 
+  .caja-vendedores {
+    width: 400px; Ajusta el ancho según tus necesidades 
+    height: 380px; Ajusta la altura según tus necesidades 
+    background-color: #f0f0f0;  Color de fondo de la caja 
+    border: 1px solid #ccc;  Borde de la caja 
+    position: fixed; mantener la caja quieta
+    
+    /* Centrar horizontalmente 
+    margin-top: 100px;
+  
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+
+    /* Centrar verticalmente 
+    position: absolute;
+    top: 31%;
+    left: 500px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .boton1{
+    padding: 10px 20px;  Ajusta el espaciado y el tamaño del botón según tus necesidades 
+    background-color: #34db74;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .boton2{
+    padding: 10px 20px; Ajusta el espaciado y el tamaño del botón según tus necesidades 
+    background-color: #34db74;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }*/
