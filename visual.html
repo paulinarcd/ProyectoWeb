@@ -29,8 +29,7 @@
 
             <div class="text-end">
 
-              <input type="search" placeholder="Ejemplo: camisas" name="" id="busqueda">
-              <button type="button" class="btn  btn-outline-light me-2">Buscar</button>
+             
               <button type="button" class="btn btn-outline-light me-2">Login</button>
               <button type="button" class="btn btn-warning">Sign-up</button>
               <button type="button" class="btn btn-light"> 
@@ -42,129 +41,216 @@
     </header>
 
 
-    <div class="flex-shrink-0 p-3" style="width: 280px;">
-        <ul class="list-unstyled ps-0">
-          <li class="mb-1 ">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-              Categorias
-            </button>
-            <div class="collapse" id="dashboard-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <input type="checkbox" id="box1">
-                  <label for="box1">Tops y Bodies</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box2">
-                  <label for="box2">Camisetas</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box3">
-                  <label for="box3">Pantalones</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box4">
-                  <label for="box4">Shorts y faldas</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box5">
-                  <label for="box5">Vestidos</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box6">
-                  <label for="box6">Chaquetas</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box7">
-                  <label for="box7">Buzos</label>
-                </li>
-                <li>
 
-                </li>
-                <li>
-                  <input type="checkbox" id="box8">
-                  <label for="box8">Gorras</label>
-                </li>
-              </ul>
-            </div>
-          </li>
+    <div class="d-flex flex-nowrap"> 
+      <div class="flex-shrink-0 p-3" style="width: 250px;">
+          <ul class="list-unstyled ps-0">
+            <li class="mb-1">
+              <input type="search" placeholder="Ejemplo: camisas" name="" id="busqueda">
+              <button type="button" class="btn btn-dark" id="btnBuscar">Buscar</button>
+            </li>
+            <li class="mb-1 border-top my-3">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                Categorias
+              </button>
+              <div class="collapse" id="dashboard-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <input type="checkbox" id="box1">
+                    <label for="box1">Tops y Bodies</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box2">
+                    <label for="box2">Camisetas</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box3">
+                    <label for="box3">Pantalones</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box4">
+                    <label for="box4">Shorts y faldas</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box5">
+                    <label for="box5">Vestidos</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box6">
+                    <label for="box6">Chaquetas</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box7">
+                    <label for="box7">Buzos</label>
+                  </li>
+                  <li>
 
-          <li class="mb-1  border-top my-3">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-              Colores
-            </button>
-            <div class="collapse" id="orders-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small" id="lista_colores">
-                <button class="btnColor" style="background-color: cadetblue;" ></button>
-                <button class="btnColor" style="background-color:tan;" ></button>
-                <button class="btnColor" style="background-color:beige " ></button>
-                <button class="btnColor" style="background-color:brown" ></button>
-                <button class="btnColor" style="background-color:blueviolet" ></button>
-                <button class="btnColor" style="background-color:chocolate" ></button>
-                <button class="btnColor" style="background-color:black" ></button>
-                <button class="btnColor" style="background-color:crimson;" ></button>
-                <button class="btnColor" style="background-color:darkgoldenrod" ></button>
-                <button class="btnColor" style="background-color:darkgreen" ></button>
-                <button class="btnColor" style="background-color:darkgrey;" ></button>
-                <button class="btnColor" style="background-color:darkred" ></button>
-                <button class="btnColor" style="background-color:hotpink" ></button>
-                <button class="btnColor" style="background-color:darkorchid;" ></button>
-                <button class="btnColor" style="background-color:khaki" ></button>
-                <button class="btnColor" style="background-color:blue" ></button>
-                <button class="btnColor" style="background-color:red" ></button>
-                <button class="btnColor" style="background-color:darkslategray;" ></button>
-               
-              </ul>
-            </div>
-          </li>
-          
-          <li class="border-top my-3"></li>
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-              Talla
-            </button>
-            <div class="collapse" id="account-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <input type="checkbox" id="box9">
-                  <label for="box9">XS</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box10">
-                  <label for="box210">S</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box11">
-                  <label for="box11">M</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box12">
-                  <label for="box12">L</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="box13">
-                  <label for="box13">XL</label>
-                </li>
-              </ul>
-            </div>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box8">
+                    <label for="box8">Gorras</label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="mb-1  border-top my-3">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                Colores
+              </button>
+              <div class="collapse" id="orders-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small" id="lista_colores">
+                  <button class="btnColor" style="background-color: cadetblue;" ></button>
+                  <button class="btnColor" style="background-color:tan;" ></button>
+                  <button class="btnColor" style="background-color:beige " ></button>
+                  <button class="btnColor" style="background-color:brown" ></button>
+                  <button class="btnColor" style="background-color:blueviolet" ></button>
+                  <button class="btnColor" style="background-color:chocolate" ></button>
+                  <button class="btnColor" style="background-color:black" ></button>
+                  <button class="btnColor" style="background-color:crimson;" ></button>
+                  <button class="btnColor" style="background-color:darkgoldenrod" ></button>
+                  <button class="btnColor" style="background-color:darkgreen" ></button>
+                  <button class="btnColor" style="background-color:darkgrey;" ></button>
+                  <button class="btnColor" style="background-color:darkred" ></button>
+                  <button class="btnColor" style="background-color:hotpink" ></button>
+                  <button class="btnColor" style="background-color:darkorchid;" ></button>
+                  <button class="btnColor" style="background-color:khaki" ></button>
+                  <button class="btnColor" style="background-color:blue" ></button>
+                  <button class="btnColor" style="background-color:red" ></button>
+                  <button class="btnColor" style="background-color:darkslategray;" ></button>
+                
+                </ul>
+              </div>
+            </li>
             
-          </li>
+            <li class="border-top my-3"></li>
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                Talla
+              </button>
+              <div class="collapse" id="account-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <input type="checkbox" id="box9">
+                    <label for="box9">XS</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box10">
+                    <label for="box210">S</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box11">
+                    <label for="box11">M</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box12">
+                    <label for="box12">L</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="box13">
+                    <label for="box13">XL</label>
+                  </li>
+                </ul>
+              </div>
+              
+            </li>
 
-          <li class="border-top my-3"></li>
-          <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#precio-collapse" aria-expanded="false">
-              Precio
-            </button>
-            <div class="collapse" id="precio-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <label for="customRange1" class="form-label"></label>
-                <input type="range" class="form-range" id="customRange1">
-              </ul>
+            <li class="border-top my-3"></li>
+            <li class="mb-1">
+              <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fs-5 fw-semibold" data-bs-toggle="collapse" data-bs-target="#precio-collapse" aria-expanded="false">
+                Precio
+              </button>
+              <div class="collapse" id="precio-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <label for="customRange1" class="form-label"></label>
+                  <input type="range" class="form-range" id="customRange1">
+                </ul>
+              </div>
+              
+            </li>
+          </ul>
+      
+      </div>
+
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="" src="https://oaxis-cloud.s3.us-east-2.amazonaws.com/images/2022/07/14/lS6FbGUr4eEyrvkpbmTW.jpg" alt="">
+                <div class="card-body">
+                  <h5>Camiseta Negra</h5>
+                  <p class="card-text">$40.000</p>
+                  <button type="button" class="btn btn-dark">Añadir al carrito</button>
+                </div>
+              </div>
             </div>
-            
-          </li>
-        </ul>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="" src="https://oaxis-cloud.s3.us-east-2.amazonaws.com/images/2022/07/14/lS6FbGUr4eEyrvkpbmTW.jpg" alt="">
+                <div class="card-body">
+                  <h5>Camiseta Negra</h5>
+                  <p class="card-text">$40.000</p>
+                  <button type="button" class="btn btn-dark">Añadir al carrito</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="" src="https://oaxis-cloud.s3.us-east-2.amazonaws.com/images/2022/07/14/lS6FbGUr4eEyrvkpbmTW.jpg" alt="">
+                <div class="card-body">
+                  <h5>Camiseta Negra</h5>
+                  <p class="card-text">$40.000</p>
+                  <button type="button" class="btn btn-dark">Añadir al carrito</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="" src="https://oaxis-cloud.s3.us-east-2.amazonaws.com/images/2022/07/14/lS6FbGUr4eEyrvkpbmTW.jpg" alt="">
+                <div class="card-body">
+                  <h5>Camiseta Negra</h5>
+                  <p class="card-text">$40.000</p>
+                  <button type="button" class="btn btn-dark">Añadir al carrito</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="" src="https://oaxis-cloud.s3.us-east-2.amazonaws.com/images/2022/07/14/lS6FbGUr4eEyrvkpbmTW.jpg" alt="">
+                <div class="card-body">
+                  <h5>Camiseta Negra</h5>
+                  <p class="card-text">$40.000</p>
+                  <button type="button" class="btn btn-dark">Añadir al carrito</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" width="100%" height="" src="https://oaxis-cloud.s3.us-east-2.amazonaws.com/images/2022/07/14/lS6FbGUr4eEyrvkpbmTW.jpg" alt="">
+                <div class="card-body">
+                  <h5>Camiseta Negra</h5>
+                  <p class="card-text">$40.000</p>
+                  <button type="button" class="btn btn-dark">Añadir al carrito</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
+    
+
 
   
 
