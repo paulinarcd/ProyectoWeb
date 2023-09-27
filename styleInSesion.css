@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;  
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1625698311031-f0dd15be5144?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    
+}
+
+form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    /* width: 380px;  */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    background-color: rgb(134, 133, 133);
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 25px;
+}
+
+label, p{
+    font-size: 17px;
+    color: black;
+    margin-top: 10px;
+
+}
+
+input{
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 17px;
+    background-color: aliceblue;
+    outline: none;
+    color: black;
+    font-size: 15px; 
+}
+
+.btn-1{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: rgb(7, 7, 7);
+}
