@@ -12,3 +12,17 @@
   .input-file {
     display: none;
   }
+
+  .btnColor{
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-right: 10px;
+  
+  }
+
+  .link{
+    color: gray;
+    text-decoration: none;
+
+}

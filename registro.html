@@ -5,93 +5,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JOPS STORE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleregistro.css">
+    <link rel="stylesheet" href="stylePersonalizar.css">
 </head>
   <body>
 
 
     <header class="p-3 text-bg-dark">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="img/bolsa-de-la-compra.png" alt="" height ="40px" width="40px">
+            
+          </a>
+  
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
+            <li><a href="visual.html" class="nav-link px-2 text-white">Hombre</a></li>
+            <li><a href="visual.html" class="nav-link px-2 text-white">Mujer</a></li>
+            <li><a href="visual.html" class="nav-link px-2 text-white">Tiendas</a></li>
+          </ul>
 
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <img src="img/bolsa-de-la-compra.png" alt="" height ="40px" width="40px">
-
-            </a>
-
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2 text-secondary">JOPS</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Hombre</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Mujer</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Tiendas</a></li>
-              <input type="search" placeholder="Ejemplo: camisas" name="" id="busqueda">
-              <button type="button" class="btn btn-secondary btn-sm">Buscar</button>
-            </ul>
-
-
-            <div class="text-end">
-              <button type="button" class="btn btn-light"> 
-                <img src="img/carrito-de-compras.png" alt="" height ="25px" width="25px">
-              </button>
-              <button type="button" class="btn btn-outline-light me-2">Login</button>
-              <button type="button" class="btn btn-warning">Sign-up</button>
-            </div>
+  
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2">
+              <a class="link" href="InicioSesion.html">Iniciar Sesion</a>
+            </button>
+            <button type="button" class="btn btn-outline-light me-3">
+              <a  class="link" href="registro.html">Registrarse</a>
+            </button>
+            <button type="button" class="btn btn-light"> 
+              <img src="img/carrito-de-compras.png" alt="" height ="20px" width="20px">
+            </button>
           </div>
         </div>
+      </div>
     </header>
 
-      <div class="card">
-        <div class="card-body">
-          <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <li class="">
-                  <label for="" class="btn btn-dark" >Usuarios</label>
-                  <div id="">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                      <label for="">- Ingrese su nombre:</label><input type="text">    
-                      <br>
-                      <label for="">- Ingrese su numero de telefono:</label><input type="text">         
-                      <br>
-                      <label for="">- Ingrese un correo electronico:</label><input type="text" placeholder="ejem@gmail.com">    
-                      <br>
-                      <label for="">- Ingrese una contraseña:</label><input type="password" placeholder="*********"> 
-                      <br>
-                      <center>
-                          <button class="btn btn-dark" id="boton1">Registrar</button>
-                      </center>
-                    </ul>
-                  </div>
-                </li>
+    <div class="container">
+
+        <div class="row">
+          <div class="col">
+            <form>
+              <div class="mb-3">
+
+                <div class="text-center">
+                  <button class="btn btn-dark" style="margin:1%;">Usuario</button>
+        
+                </div>
+
+                <label for="nomMarca" class="form-label">Ingrese su nombre</label>
+                <input type="text" class="form-control" id="nomMarca" >
+                <div id="emailHelp" class="form-text"></div>
               </div>
-              <div class="col" weight>
-                <li class="caja-vendedores">
-                  <label class="btn btn-dark" for="">Vendedor</label>
-                  <div>
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                      <label for="">- Ingrese el nombre de su marca: </label><input type="text">    
-                      <br>
-                      <label for="">- Ingrese el numero de telefono:</label><input type="text">    
-                      <br>
-                      <label for="">- Ingrese su direccion:</label><input type="text">    
-                      <br>
-                      <label for="">- Seleccione una imagen para su logo:</label><input type="file" id="imagen" name="imagen" accept="image/*">
-                      <br>
-                      <label for="">- Que categorias de ropa maneja:</label> <br> <input type="checkbox" name="Tops y Bodies" id="Tops y Bodies" >Tops y Bodies <input type="checkbox" name="Camisetas" id="Camisetas">Camisetas  <input type="checkbox" name="Pantalones" id="Pantalones">Pantalones  <input type="checkbox" name="Shorts" id="Shorts">Shorts <br> <input type="checkbox" name="Vestidos" id="Vestidos">Vestidos  <input type="checkbox" name="Gorras" id="Gorras">Gorras  <input type="checkbox" name="Camisas" id="Camisas">Camisas  <input type="checkbox" name="Buzos" id="Buzos">Buzos <br> <input type="checkbox" name="Medias" id="Medias">Medias  <input type="checkbox" name="Jeans" id="Jeans">Jeans  <input type="checkbox" name="Faldas" id="Faldas">Faldas  <input type="checkbox" name="Joggers" id="Joggers">Joggers <br> <input type="checkbox" name="Pines" id="Pines">Pines  <input type="checkbox" name="Chaquetas" id="Chaquetas">Chaquetas  <input type="checkbox" name="Vestidos de baño" id="Vestidos de baño">Vestidos de baño  <input type="checkbox" name="Bolsas" id="Bolsas">Bolsas
-                      <br>
-                      <label for="">- Ingrese un correo electronico:</label><input type="text" placeholder="ejem@gmail.com">    
-                      <br>
-                      <label for="">- Ingrese una contraseña:</label><input type="password" placeholder="*********">    
-                      <br>
-                      <center>
-                          <button class="btn btn-dark">Registrar</button>
-                      </center>
-                  </ul>
-                  </div>
-                </li>
+
+              <div class="mb-3">
+                <label for="nomMarca" class="form-label">Ingrese su apellido</label>
+                <input type="text" class="form-control" id="nomMarca" >
+                <div id="emailHelp" class="form-text"></div>
               </div>
-            </div>
+
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-dark">Registrarse</button>
+            </form>
           </div>
+          <div class="col">
+            <form>
+              <div class="mb-3">
+                <div class="text-center">
+                  <button class="btn btn-dark" style="margin:1%;">Vendedor</button>
+                </div>
+
+                <label for="nomMarca" class="form-label">Ingrese nombre de la marca</label>
+                <input type="text" class="form-control" id="nomMarca" >
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="ingLogo" class="form-label">Ingrese el logo</label> <br>
+                <label for="archivo" class="input-file-label">
+                    Seleccionar Archivo
+                </label>
+                  <input type="file" name="archivo" id="archivo" class="input-file">
+              </div>
+
+              <div class="mb-3">
+                <label for="ingCatrgotia" class="form-label">Categorias que tendra:</label> <br>
+
+                    <input type="checkbox" id="box1">
+                    <label for="box1">Tops y Bodies</label>
+
+                    <input type="checkbox" id="box2">
+                    <label for="box2">Camisetas</label>
+
+                    <input type="checkbox" id="box3">
+                    <label for="box3">Pantalones</label>
+
+                    <input type="checkbox" id="box4">
+                    <label for="box4">Shorts y faldas</label>
+
+                    <input type="checkbox" id="box5">
+                    <label for="box5">Vestidos</label>
+
+                    <input type="checkbox" id="box6">
+                    <label for="box6">Chaquetas</label>
+
+                    <input type="checkbox" id="box7">
+                    <label for="box7">Buzos</label>
+
+                    <input type="checkbox" id="box8">
+                    <label for="box8">Gorras</label>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-dark">Registrarse</button>
+            </form>
+          </div>
+
         </div>
       </div>
 
